@@ -1,0 +1,58 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: fromMotor
+  Type: Motor1
+  DataType: Motor1
+  Children:
+  - Name: a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "fromMotor.a"
+  - Name: b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "fromMotor.b"
+  - Name: c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "fromMotor.c"
+- Name: onlytest
+  Type: Test
+  DataType: Test
+  Children:
+  - Name: a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "onlytest.a"
+  - Name: b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "onlytest.b"

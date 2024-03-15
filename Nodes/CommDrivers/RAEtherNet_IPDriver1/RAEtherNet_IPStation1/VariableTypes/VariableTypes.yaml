@@ -1,0 +1,38 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: Motor
+  Id: g=8061878a86364176597d35a7cbedffef
+  Supertype: TagStructure
+  DataType: Motor
+  ValueRank: Any
+  Children:
+  - Name: a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "a"
+  - Name: b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "b"
+  - Name: c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "c"

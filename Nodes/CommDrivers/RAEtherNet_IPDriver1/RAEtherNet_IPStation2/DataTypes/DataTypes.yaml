@@ -1,0 +1,72 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Test
+  Id: g=8af977be4ba983e76a7b8eb067884464
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Test",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8af977be4ba983e76a7b8eb067884464",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "a",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "b",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Test"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: Motor1
+  Id: g=88f38e71306f4b65ffa68d06c8c2f47c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "88f38e71306f4b65ffa68d06c8c2f47c",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "a",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "b",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "c",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

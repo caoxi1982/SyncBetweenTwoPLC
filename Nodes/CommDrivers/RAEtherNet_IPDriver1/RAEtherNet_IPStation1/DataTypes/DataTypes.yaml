@@ -1,0 +1,41 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Motor
+  Id: g=ec1dd407b7ac1b79fa7845f99106c451
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ec1dd407b7ac1b79fa7845f99106c451",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "a",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "b",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "c",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

@@ -1,0 +1,62 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: Test
+  Id: g=8be256be50d68c66239b8588c78be848
+  Supertype: TagStructure
+  DataType: Test
+  ValueRank: Any
+  Children:
+  - Name: a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "a"
+  - Name: b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "b"
+- Name: Motor1
+  Id: g=e1cc9320d0843bcc4aa7bda4347b274f
+  Supertype: TagStructure
+  DataType: Motor1
+  ValueRank: Any
+  Children:
+  - Name: a
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "a"
+  - Name: b
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "b"
+  - Name: c
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "c"

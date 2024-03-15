@@ -1,0 +1,84 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: motors
+  Type: Motor
+  DataType: Motor
+  ValueRank: OneDimension
+  ArrayDimensions: [2]
+  Children:
+  - Name: 0
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [5]
+      Value: [0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[0].a"
+    - Name: b
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[0].b"
+    - Name: c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[0].c"
+  - Name: 1
+    Type: Motor
+    DataType: Motor
+    Children:
+    - Name: a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [5]
+      Value: [0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[1].a"
+    - Name: b
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[1].b"
+    - Name: c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "motors[1].c"
+- Name: ReadyToRead
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ReadyToRead"
